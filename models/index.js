@@ -1,0 +1,21 @@
+module.exports = {
+  OTP: require("./otp.model"),
+  USER: require("./user.model"),
+  ROLE: require("./role.model"),
+  INTEREST: require("./interest.model"),
+  USERCONNECTION: require("./user-connection.model"),
+  USERPOST: require("./user-post.model"),
+  CATEGORY: require("./category.model"),
+  USERENGAGEMENT: require("./post-engagement.model"),
+  POSTLIKE: require("./post-like.model"),
+  POSTCOMMENT: require("./post-comment.model"),
+  POSTSAVE: require("./post-save.model"),
+  CONTACT: require("./contact.model"),
+  POSTSHARE: require("./post-share.model"),
+  CHAT: require("./chat.model"),
+  CHATROOM: require("./chat-room.model"),
+  PAGES: require("./pages.model"),
+  FILEUPLOAD: require("./file-upload.model"),
+  STORY: require("./story.model"),
+  NOTIFICATION: require("./in-app.notification")
+};
